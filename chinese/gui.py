@@ -18,8 +18,8 @@
 
 from functools import partial
 
-from PyQt5.QtGui import QKeySequence
-from PyQt5.QtWidgets import QAction, QActionGroup, QMenu
+from PyQt6.QtGui import QKeySequence, QAction, QActionGroup
+from PyQt6.QtWidgets import QMenu
 from anki.lang import _
 from aqt import mw
 from aqt.utils import openLink

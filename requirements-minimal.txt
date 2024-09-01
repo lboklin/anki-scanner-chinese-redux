@@ -2,7 +2,7 @@ coverage
 hypothesis
 pytest-cov
 pytest
-PyQt5
+PyQt6
 genanki
 jieba
 gtts

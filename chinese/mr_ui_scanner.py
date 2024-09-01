@@ -1,8 +1,9 @@
 ###################
 ## UI screens
 from aqt import mw
-from PyQt5.QtWidgets import QMainWindow, QDialogButtonBox, QLabel, QVBoxLayout, QHBoxLayout, QButtonGroup, QFileDialog, QTextBrowser, QWidget, QPushButton, QAction, QLineEdit, QMessageBox, QRadioButton, QPlainTextEdit
-from PyQt5 import QtCore, QtWidgets
+from PyQt6.QtWidgets import QMainWindow, QDialogButtonBox, QLabel, QVBoxLayout, QHBoxLayout, QButtonGroup, QFileDialog, QTextBrowser, QWidget, QPushButton, QLineEdit, QMessageBox, QRadioButton, QPlainTextEdit
+from PyQt6.QtGui import QAction
+from PyQt6 import QtCore, QtWidgets
 
 import traceback
 from .mr_async_worker_thread import TextScannerThreadAsync

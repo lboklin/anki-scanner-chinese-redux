@@ -1,7 +1,7 @@
 from aqt import mw
-from PyQt5.QtWidgets import QWidget, QComboBox, QLabel, QVBoxLayout, QHBoxLayout, QButtonGroup, QTextBrowser
-from PyQt5.QtGui import QStandardItem, QColor
-from PyQt5 import QtCore, QtWidgets
+from PyQt6.QtWidgets import QWidget, QComboBox, QLabel, QVBoxLayout, QHBoxLayout, QButtonGroup, QTextBrowser
+from PyQt6.QtGui import QStandardItem, QColor
+from PyQt6 import QtCore, QtWidgets
 
 from .mr_async_worker_thread import TextScannerThreadAsync
 from .singletons import config

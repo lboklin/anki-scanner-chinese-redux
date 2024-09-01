@@ -1,5 +1,5 @@
-PyQt5-sip==12.8.0
-PyQt5==5.15.0
+PyQt6-sip==16.6.0
+PyQt6==6.7.0
 PyYAML==5.3.1
 attrs==19.3.0
 beautifulsoup4==4.9.1

@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtWidgets
+from PyQt6 import QtCore, QtWidgets
 from .mr_text_scanner import TextScanner
 from .mr_note_maker import NoteMaker
 from .database import Dictionary

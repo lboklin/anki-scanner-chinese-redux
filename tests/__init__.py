@@ -27,8 +27,8 @@ network_integration = False
 NullTranslations().install()
 
 modules = {
-    'PyQt5.QtGui': MagicMock(),
-    'PyQt5.QtWidgets': MagicMock(),
+    'PyQt6.QtGui': MagicMock(),
+    'PyQt6.QtWidgets': MagicMock(),
     'anki': MagicMock(),
     'anki.find': MagicMock(),
     'anki.hooks': MagicMock(),
